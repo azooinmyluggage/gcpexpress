@@ -14,7 +14,7 @@ jobs:
         credentials_json: '${{ secrets.gcp_credentials }}'
     
     - name: Install packages
-      run: echo pwd    
+      run: echo $pwd    
     
     - id: 'deploy'
       uses: 'google-github-actions/deploy-appengine@v0'
