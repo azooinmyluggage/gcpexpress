@@ -4,7 +4,9 @@ on:
     branches:
       - main
 jobs:
-  job_id:
+  build:
+    name: GAE Deploy
+    runs-on: ubuntu-latest
     steps:
     - id: 'auth'
       uses: 'google-github-actions/auth@v0'
