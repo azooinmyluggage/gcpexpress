@@ -1,6 +1,0 @@
-commonLabels:
-  app: nodejs
-
-resources:
-- deployment.yaml
-- service.yaml
